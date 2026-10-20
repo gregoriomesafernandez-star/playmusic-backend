@@ -22,7 +22,7 @@ const createAdmin = async () => {
 
     const admin = new User({
         name: "Admin",
-        surname: "Musicfy",
+        surname: "PlayMusic",
         email: process.env.ADMIN_EMAIL,
         password: hashedPassword,
         role: "ROLE_ADMIN",
@@ -39,7 +39,7 @@ const connectDB = async () => {
     try {
         await mongoose.connect(process.env.MONGO_URI);
 
-        console.log("Conectado a la base de datos: musicfy");
+        console.log("Conectado a la base de datos: playmusic");
 
         await createAdmin();
 

@@ -1,12 +1,12 @@
 # Music Management API (Node.js)
 
-REST API backend for the Musicfy music management application.
+REST API backend for the playmusic music management application.
 
-Built with Node.js, Express and MongoDB, this backend provides authentication, role-based access control, music management and file uploads for the Musicfy Angular frontend.
+Built with Node.js, Express and MongoDB, this backend provides authentication, role-based access control, music management and file uploads for the playmusic Angular frontend.
 
 ## Frontend Repository
 
-[Musicfy Frontend](https://github.com/gregoriomesafernandez-star/musicfy-frontend)
+[playmusic Frontend](https://github.com/gregoriomesafernandez-star/playmusic-frontend)
 
 ## Features
 
@@ -48,13 +48,13 @@ Before running the project, make sure you have installed:
 Clone the repository:
 
 ```bash
-git clone https://github.com/gregoriomesafernandez-star/musicfy-backend.git
+git clone https://github.com/gregoriomesafernandez-star/playmusic-backend.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd musicfy-backend
+cd playmusic-backend
 ```
 
 Install dependencies:
@@ -69,9 +69,9 @@ Create a `.env` file in the root directory based on `.env.example`:
 
 ```env
 PORT=3000
-MONGO_URI=mongodb://127.0.0.1:27017/musicfy
+MONGO_URI=mongodb://127.0.0.1:27017/playmusic
 JWT_SECRET=replace_with_a_secure_secret
-ADMIN_EMAIL=admin@musicfy.local
+ADMIN_EMAIL=admin@playmusic.local
 ADMIN_PASSWORD=change_this_password
 ```
 
@@ -107,7 +107,7 @@ http://localhost:3000
 The application uses MongoDB with the database:
 
 ```text
-musicfy
+playmusic
 ```
 
 The main entities are:
