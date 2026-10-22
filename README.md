@@ -106,15 +106,13 @@ http://localhost:3000
 
 The application uses MongoDB with the database:
 
+```text
 playmusic
+```
 
 The database is created automatically by MongoDB when the application first writes data to it. No manual database creation is required.
 
 Make sure MongoDB is installed and running before starting the application.
-
-```text
-playmusic
-```
 
 The main entities are:
 
